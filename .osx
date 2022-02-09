@@ -68,6 +68,8 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Trackpad: Haptic feedback
 defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 1
+# Set the correct scroll direction
+defaults write -g com.apple.swipescrolldirection -bool FALSE
 # defaults write com.apple.AppleMultitouchTrackpad ActuationStrength -int 0
 
 # Trackpad: map bottom right corner to right-click (requires restart!)
@@ -173,6 +175,9 @@ defaults write com.apple.dock expose-animation-duration -float 0.15
 
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
+
+# Hide recent applications
+defaults write com.apple.dock show-recents -bool false
 
 # Enable the 'reduce transparency' option. Save GPU cycles.
 # defaults write com.apple.universalaccess reduceTransparency -bool true
