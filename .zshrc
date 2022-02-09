@@ -15,7 +15,7 @@ DEFAULT_USER=`whoami`
 alias ll='ls -lart'
 
 # Path to your oh-my-zsh installation.
-export ZSH="=/Users/${DEFAULT_USER}/.oh-my-zsh"
+export ZSH="/Users/${DEFAULT_USER}/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
