@@ -1,10 +1,10 @@
 syntax on               " enable syntax highlighting
-set cursorline          " highlight the current line
+"set cursorline          " highlight the current line
 " set background=dark   " darker color scheme
 " set ruler             " show line number in bar
 set nobackup            " don't create pointless backup files; Use VCS instead
 set autoread            " watch for file changes
-set number              " show line numbers
+"set number              " show line numbers
 set showcmd             " show selection metadata
 set showmode            " show INSERT, VISUAL, etc. mode
 set showmatch           " show matching brackets
