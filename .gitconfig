@@ -1,6 +1,7 @@
 [user]
   name = Adam McDonagh
   email = adam@elitemonkey.net
+  signingkey = 0x8963C7EA7E9D352E
 [core]
   editor = vi
   excludesfile = ~/.gitignore
@@ -32,3 +33,5 @@
   l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
 [pull]
 	rebase = true
+[commit]
+	gpgsign = true
